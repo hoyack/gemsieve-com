@@ -97,6 +97,24 @@ All images converted to WebP using ffmpeg at quality 85. PNG originals retained 
 - Added as CSS background on `.hero` section, layered under existing grid overlay
 - OG image already existed (og-card.png)
 
+#### Revision r1 (HOY-211 — CMO REJECT)
+
+**Reject reason:** `assets/hero.webp` was byte-identical (SHA256 `78b67dd8...`) to sharklancer `assets/og.webp`. Wrong metaphor — navy velocity/plane geometry ≠ filter/sieve. Provenance was still Wave A copy-paste.
+
+| Parameter | Value |
+|-----------|-------|
+| **Checkpoint** | Juggernaut-XL_v9.safetensors |
+| **Seed** | random (MCP auto) |
+| **Steps** | 30 |
+| **Width × Height** | 1536 × 1024 |
+| **Batch size** | 3 |
+| **Selected image** | ComfyUI_00056_.png (prompt_id: a8d0b7ae-99c6-43a1-b405-c8b6b5fa8c68) |
+| **Prompt** | Abstract sieve and mesh filter geometry. Dark background with dark gold #d4a017 intersecting mesh lines forming a precise geometric grid-like sieve pattern. Fine overlapping filter layers suggesting separation, sorting, and refinement. Clean geometric composition — diagonal intersecting mesh planes, granular particulate dots passing through filter layers, concentrated trails suggesting gems or valuable elements being separated from matrix. Professional, elegant, mineral-processing aesthetic. No text, no jewelry, no ocean, no velocity lines, no aircraft shapes. Color palette: deep charcoal background, dark gold #d4a017 mesh lines, subtle warm amber highlights. Like an abstract mineral separation diagram. |
+| **Negative prompt** | text, letters, words, labels, watermark, logo, people, humans, faces, photorealistic, cartoon, shark, ocean, water, fish, velocity, speed lines, aircraft, planes, navy blue, jewelry, gems, diamonds, rings, necklaces, organic, nature, curves, typography, glyphs |
+| **Outputs** | `assets/hero.webp` (324 KB), `assets/hero.png` (1.4 MB) |
+| **Hash (hero.webp)** | `1f6cb64fc59f4e2589764abd053380a7f2f22091d27c72c2c37171774e97dc46` |
+| **QA** | Vision-checked: explicit sieve/mesh/filter geometry with gold particulate being separated from dark matrix. No navy, no velocity lines, no shark/plane imagery. Hash unique — not byte-identical to any other portfolio asset. |
+
 ### compromisly.com
 - **OG image**: ComfyUI_00049_.png (warm balanced abstract, 1200×630)
 - Added og:image, og:image:width, og:image:height, og:image:alt, twitter:card meta tags
